@@ -1,5 +1,5 @@
 /*
-Theme Name: Full Page
+Theme Name: ByMi (parent Full Page)
 Theme URI: https://www.sktthemes.net/shop/free-full-page-slider-wordpress-theme/
 Author: SKT Themes
 Author URI: https://www.sktthemes.net
@@ -166,7 +166,7 @@ h3.widget-title a{color:#FFF;}
 #footer-wrapper .social-icons a:link, .social-icons a:visited{border-left:none;}
 #footer-wrapper .social-icons a:last-of-type{border-right:none;}
 
-.footer{padding:40px 0 20px; 0}
+.footer{padding:40px 0 20px 0}
 .copyright-wrapper {background-color:#161616; color:#fff; position:relative; padding:30px 0;}
 .copyright-txt {float:right; text-align:right; padding-right:22px; font-family: 'Montserrat',sans-serif; font-size: 12px; font-weight: 400; color: #5f5d5d; text-transform:uppercase;}
 .copyright-txt span{color:#000000;}
