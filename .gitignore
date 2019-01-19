@@ -1,0 +1,23 @@
+# PhpStorm
+.idea/
+
+# files
+wp-config.php
+
+# ignore node dependency directories (used by grunt)
+node_modules/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
