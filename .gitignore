@@ -1,8 +1,12 @@
 # PhpStorm
 .idea/
 
+# Dir
+wp-content/uploads
+
 # files
 wp-config.php
+tags
 
 # ignore node dependency directories (used by grunt)
 node_modules/

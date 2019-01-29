@@ -9,25 +9,21 @@
     </header><!-- .entry-header -->
      <div class="postmeta">
             <div class="post-date"><?php the_date(); ?></div><!-- post-date -->
-            <div class="post-comment"> &nbsp;|&nbsp; <a href="<?php comments_link(); ?>"><?php comments_number(); ?></a></div> 
-            <div class="clear"></div>         
+            <div class="clear"></div>
     </div><!-- postmeta -->
-	<?php if (has_post_thumbnail() ){ ?>
-    	<div class="post-thumb"><?php the_post_thumbnail(); ?></div>
-    <?php }?>
     <div class="entry-content">
-	<?php
-			the_content();
-			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'full-page' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
-				'pagelink'    => '<span class="screen-reader-text">' . esc_html__( 'Page', 'full-page' ) . ' </span>%',
-				'separator'   => '<span class="screen-reader-text">, </span>',
-			) );
-		?>     
-        <div class="postmeta">           
+        <?php
+          the_content();
+          wp_link_pages( array(
+            'before'      => '<div class="page-links"><span class="page-links-title">' . esc_html__( 'Pages:', 'full-page' ) . '</span>',
+            'after'       => '</div>',
+            'link_before' => '<span>',
+            'link_after'  => '</span>',
+            'pagelink'    => '<span class="screen-reader-text">' . esc_html__( 'Page', 'full-page' ) . ' </span>%',
+            'separator'   => '<span class="screen-reader-text">, </span>',
+          ) );
+        ?>
+        <div class="postmeta">
             <div class="post-tags"><?php the_tags(); ?> </div>
             <div class="clear"></div>
         </div><!-- postmeta -->
