@@ -18,7 +18,7 @@
     <?php if ( is_search() || !is_single() ) : // Only display Excerpts for Search ?>
     <div class="entry-summary">
         <?php the_excerpt(); ?>
-       <a class="ReadMore" href="<?php the_permalink(); ?>"><?php esc_html_e('Read More &rarr;','full-page'); ?></a>
+       <a class="ReadMore" href="<?php the_permalink(); ?>"><?php esc_html_e('Далее &rarr;','full-page'); ?></a>
     </div><!-- .entry-summary -->
     <?php else : ?>
     <div class="entry-content">
