@@ -9,5 +9,5 @@
 	<label>
 		<input type="search" class="search-field" placeholder="<?php esc_attr_e( 'Поискать...', 'full-page' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" name="s">
 	</label>
-	<input type="submit" class="search-submit" value="<?php esc_attr_e( 'Поискать', 'full-page' ); ?>">
+	<input type="submit" class="search-submit" value="<?php esc_attr_e( 'Поиск', 'full-page' ); ?>">
 </form>

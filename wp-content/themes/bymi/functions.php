@@ -206,12 +206,13 @@ function full_page_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'full_page_scripts' );
 
-define('FULL_PAGE_SKTTHEMES_URL','https://www.sktthemes.net/','full-page');
-define('FULL_PAGE_SKTTHEMES_PRO_THEME_URL','https://www.sktthemes.net/shop/full-page-wordpress-theme/','full-page');
-define('FULL_PAGE_SKTTHEMES_FREE_THEME_URL','https://www.sktthemes.net/shop/free-full-page-slider-wordpress-theme/','full-page');
-define('FULL_PAGE_SKTTHEMES_THEME_DOC','http://sktthemesdemo.net/documentation/sktfullpage-documentation/','full-page');
-define('FULL_PAGE_SKTTHEMES_LIVE_DEMO','https://www.sktperfectdemo.com/demos/fullpage/','full-page');
-define('FULL_PAGE_SKTTHEMES_THEMES','https://www.sktthemes.net/themes/','full-page');
+/* define('FULL_PAGE_SKTTHEMES_URL','https://www.sktthemes.net/','full-page'); */
+/* define('FULL_PAGE_SKTTHEMES_PRO_THEME_URL','https://www.sktthemes.net/shop/full-page-wordpress-theme/','full-page'); */
+/* define('FULL_PAGE_SKTTHEMES_FREE_THEME_URL','https://www.sktthemes.net/shop/free-full-page-slider-wordpress-theme/','full-page'); */
+/* define('FULL_PAGE_SKTTHEMES_THEME_DOC','http://sktthemesdemo.net/documentation/sktfullpage-documentation/','full-page'); */
+/* define('FULL_PAGE_SKTTHEMES_LIVE_DEMO','https://www.sktperfectdemo.com/demos/fullpage/','full-page'); */
+/* define('FULL_PAGE_SKTTHEMES_THEMES','https://www.sktthemes.net/themes/','full-page'); */
+
 /**
  * Custom template for about theme.
  */

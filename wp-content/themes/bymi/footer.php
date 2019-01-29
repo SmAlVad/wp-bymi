@@ -10,10 +10,10 @@
       <div class="fullpage-footer">
           <div id="colclose">
               <div class="close-pnl">
-                  <?php echo esc_attr_e('ClOSE SIDEBAR', 'full-page');?>
+                  <?php echo esc_attr_e('СВЕРНУТЬ', 'full-page');?>
               </div>
               <div class="open-pnl">
-                  <?php echo esc_attr_e('OPEN SIDEBAR', 'full-page');?>
+                  <?php echo esc_attr_e('РАЗВЕРНУТЬ', 'full-page');?>
               </div>
           </div>
       </div>
